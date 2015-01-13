@@ -9,7 +9,10 @@ define( function() {
     name: '',//For example: My Company
     copyright: '',//For example: Copyright © 2014, My Company
     links: [
-      {text: '', //For example "My Company Support"
-        url: ''} //For example, https://www.mycompany.com/support
-    ]};
+      {
+        text: '', //For example "My Company Support"
+        url: ''
+      } //For example, https://www.mycompany.com/support
+    ]
+  };
 } );
