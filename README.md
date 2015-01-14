@@ -15,8 +15,7 @@ In js/Brand.js fill in the missing information about your group, which will be d
 * links
 
 ### Adapting a Simulation from PhET
-When making only minor modifications, a black and white version of the PhET Interactive Simulations logo can be included
-with the text "adapted from PhET" in the navigation bar.  In order to use this branding for your simulation, please check
+When making only minor modifications, a black and white version of the PhET Interactive Simulations logo should be included with the text "adapted from PhET" in the navigation bar.  In order to use this branding for your simulation, please check
 out the `adapted-from-phet` branch, which includes the black and white logos as well as the metadata in Brand.js that
 will trigger displaying the "adapted from" text in Joist.
 
