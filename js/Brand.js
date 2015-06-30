@@ -13,6 +13,7 @@ define( function() {
         text: '', //For example "My Company Support"
         url: ''
       } //For example, https://www.mycompany.com/support
-    ]
+    ],
+    adaptedFromPhET: false
   };
 } );
