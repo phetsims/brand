@@ -6,9 +6,9 @@ define( function() {
 
   //TODO: Add your brand's information here and it will appear in the About Dialog
   return {
-    name: null, // {string} For example: My Company
-    copyright: null, // {string} For example: Copyright © 2014, My Company
+    name: null, // {string} For example: 'My Company'
+    copyright: null, // {string} For example: 'Copyright © 2014, My Company'
     links: null, // {Object[]} For example: { text: 'My Company Support', url: 'https://www.mycompany.com/support' }
-    adaptedFromPhET: false
+    adaptedFromPhET: false // {boolean} is this brand adapted from PhET?
   };
 } );
