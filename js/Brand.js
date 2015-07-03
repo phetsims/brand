@@ -4,16 +4,11 @@
 define( function() {
   'use strict';
 
-  //TODO: Add your group's information here and it will appear in the About Dialog
+  //TODO: Add your brand's information here and it will appear in the About Dialog
   return {
-    name: ' ',//For example: My Company
-    copyright: ' ',//For example: Copyright © 2014, My Company
-    links: [
-      {
-        text: ' ', //For example "My Company Support"
-        url: ' ' //For example, https://www.mycompany.com/support
-      }
-    ],
+    name: null, // {string} For example: My Company
+    copyright: null, // {string} For example: Copyright © 2014, My Company
+    links: null, // {Object[]} For example: { text: 'My Company Support', url: 'https://www.mycompany.com/support' }
     adaptedFromPhET: false
   };
 } );
