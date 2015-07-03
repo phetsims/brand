@@ -6,13 +6,13 @@ define( function() {
 
   //TODO: Add your group's information here and it will appear in the About Dialog
   return {
-    name: '',//For example: My Company
-    copyright: '',//For example: Copyright © 2014, My Company
+    name: ' ',//For example: My Company
+    copyright: ' ',//For example: Copyright © 2014, My Company
     links: [
       {
-        text: '', //For example "My Company Support"
-        url: ''
-      } //For example, https://www.mycompany.com/support
+        text: ' ', //For example "My Company Support"
+        url: ' ' //For example, https://www.mycompany.com/support
+      }
     ],
     adaptedFromPhET: false
   };
