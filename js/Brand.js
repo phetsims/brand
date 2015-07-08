@@ -13,11 +13,11 @@ define( function( require ) {
   var SOFTWARE_LICENSING_URL = 'http://phet.colorado.edu/en/html-terms-privacy-and-licensing';
 
   return {
+    id: 'phet',
     name: phetString,
     copyright: copyrightString,
     links: [
       { text: termsPrivacyAndLicensingString, url: SOFTWARE_LICENSING_URL }
-    ],
-    adaptedFromPhET: false
+    ]
   };
 } );
