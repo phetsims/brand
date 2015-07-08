@@ -6,10 +6,11 @@ define( function() {
 
   //TODO: Add your brand's information here and it will appear in the About Dialog
   return {
-    id: 'phet',
+    id: 'default', // A unique identifier for your company, which can optionally be used for logic in the application
+                   // This is used by the 'adapted-from-phet' brand to show an internationalized "Adapted From" text
+                   // in the navigation bar.
     name: null, // {string} For example: 'My Company'
     copyright: null, // {string} For example: 'Copyright © 2014, My Company'
-    links: null, // {Object[]} For example: { text: 'My Company Support', url: 'https://www.mycompany.com/support' }
-    adaptedFromPhET: false // {boolean} is this brand adapted from PhET?
+    links: null // {Object[]} For example: { text: 'My Company Support', url: 'https://www.mycompany.com/support' }
   };
 } );
