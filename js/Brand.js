@@ -5,19 +5,17 @@ define( function( require ) {
   'use strict';
 
   // strings
-  var phetString = 'PhET<sup>\u00ae</sup> Interactive Simulations'; // as in Java sims, do not internationalize
-  var copyrightString = 'Copyright © 2004-2015 University of Colorado Boulder'; // as in Java sims, do not internationalize
   var termsPrivacyAndLicensingString = require( 'string!JOIST/termsPrivacyAndLicensing' );
-
-  // constants
-  var SOFTWARE_LICENSING_URL = 'http://phet.colorado.edu/en/html-terms-privacy-and-licensing';
 
   return {
     id: 'phet',
-    name: phetString,
-    copyright: copyrightString,
+    name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
+    copyright: 'Copyright © 2004-2015 University of Colorado Boulder', // no i18n
     links: [
-      { text: termsPrivacyAndLicensingString, url: SOFTWARE_LICENSING_URL }
+      {
+        text: termsPrivacyAndLicensingString,
+        url: 'http://phet.colorado.edu/en/html-terms-privacy-and-licensing'
+      }
     ]
   };
 } );
