@@ -6,6 +6,7 @@ define( function( require ) {
 
   // strings
   var termsPrivacyAndLicensingString = require( 'string!JOIST/termsPrivacyAndLicensing' );
+  var translationCreditString = require( 'string!JOIST/translation.credits.link' );
 
   return {
     id: 'phet',
@@ -15,6 +16,10 @@ define( function( require ) {
       {
         text: termsPrivacyAndLicensingString,
         url: 'http://phet.colorado.edu/en/html-terms-privacy-and-licensing'
+      },
+      {
+        text: translationCreditString,
+        url:'http://phet.colorado.edu/en/for-translators/translation-credit'
       }
     ]
   };
