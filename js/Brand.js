@@ -15,7 +15,7 @@ define( function( require ) {
     links: [
       {
         text: termsPrivacyAndLicensingString,
-        url: 'http://phet.colorado.edu/en/html-terms-privacy-and-licensing'
+        url: 'http://phet.colorado.edu/en/licensing/html'
       },
       {
         text: translationCreditString,
