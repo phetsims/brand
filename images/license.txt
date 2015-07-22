@@ -1,0 +1,3 @@
+logo.png license=public domain
+logo-on-white.png license=public domain 
+splash.svg license=public domain
