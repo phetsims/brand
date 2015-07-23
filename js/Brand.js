@@ -7,20 +7,34 @@ define( function( require ) {
   // strings
   var termsPrivacyAndLicensingString = require( 'string!JOIST/termsPrivacyAndLicensing' );
   var translationCreditString = require( 'string!JOIST/translation.credits.link' );
+  var thirdPartyCreditString = require( 'string!JOIST/third-party.credits.link' );
 
   return {
     id: 'phet',
     name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
     copyright: 'Copyright © 2004-2015 University of Colorado Boulder', // no i18n
-    links: [
-      {
-        text: termsPrivacyAndLicensingString,
-        url: 'http://phet.colorado.edu/en/licensing/html'
-      },
-      {
-        text: translationCreditString,
-        url:'http://phet.colorado.edu/en/for-translators/translation-credit'
-      }
-    ]
-  };
+
+    /**
+     * Get the links for the sim using a normalized sim name like "energy-skate-park-basics"
+     * @param simName
+     * @param locale
+     * @returns {*[]}
+     */
+    getLinks: function( simName, locale ) {
+      return [
+        {
+          text: termsPrivacyAndLicensingString,
+          url: 'http://phet.colorado.edu/en/licensing/html'
+        },
+        {
+          text: translationCreditString,
+          url: 'http://phet.colorado.edu/translation-credits?simName=' + encodeURIComponent( simName ) + '&locale=' + encodeURIComponent( locale )
+        },
+        {
+          text: thirdPartyCreditString,
+          url: 'http://phet.colorado.edu/third-party-credits?simName=' + encodeURIComponent( simName ) + '&locale=' + encodeURIComponent( locale )
+        }
+      ];
+    }
+  }
 } );
