@@ -1,3 +1,0 @@
-logo.png source=PhET
-logo-on-white.png source=PhET
-splash.svg source=PhET
