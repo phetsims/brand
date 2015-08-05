@@ -32,7 +32,7 @@ http://simulationurl.html?brand=mybrandname
 ```
 
 ### Which brand should I use?
-* The colorized PhET logo is trademarked and only permitted for use by the PhET team at the University of Colorado.
+* The "phet" brand is reserved for PhET Interactive Simulations usage only.  The colorized PhET logo is trademarked and only permitted for use by the PhET team at the University of Colorado.
 * The "interoperable" brand is reserved for PhET Interactive Simulations interoperable versions.
 * The black-and-white "Adapted from PhET" logo (the default) is encouraged for usage in simulations with minor modifications.
 * The "Adapted from PhET" branding can also be used for new simulations based on the PhET libraries, but another option is to create your own brand, which will allow you to easily integrate your own splash screen, company logo and other features. 
