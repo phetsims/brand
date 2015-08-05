@@ -12,9 +12,9 @@ features:
 PhET provides 3 built-in brands and flexibility to easily create new brands to make it easy for 3rd parties to 
 customize their simulations.
 
-1. `adapted-from-phet` (the default brand) indicates that a simulation is adapted from the original PhET simulation.  More details available in the [adapted-from-phet README](adapted-from-phet/README.md)
-2. `phet` The brand for simulations published on the PhET website http://phet.colorado.edu More details available in the [phet README](phet/README.md)
-3. `interoperable` This brand is for an interoperable PhET simulation that provides powerful input/output/logging/iframe/API features. More details available in the [interoperable README](interoperable/README.md)
+1. `adapted-from-phet` (the default brand) indicates that a simulation is adapted from the original PhET simulation.  More details available in the [adapted-from-phet brand README](adapted-from-phet/README.md)
+2. `phet` The brand for simulations published on the PhET website http://phet.colorado.edu More details available in the [phet brand README](phet/README.md)
+3. `interoperable` This brand is for an interoperable PhET simulation that provides powerful input/output/logging/iframe/API features. More details available in the [interoperable brand README](interoperable/README.md)
 
 To build a simulation with the default brand, use:
 ```
