@@ -9,17 +9,11 @@ define( function( require ) {
   var translationCreditString = require( 'string!JOIST/translation.credits.link' );
   var thirdPartyCreditString = require( 'string!JOIST/third-party.credits.link' );
 
+  // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   return {
     id: 'interoperable',
     name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
     copyright: 'Copyright © 2004-2015 University of Colorado Boulder',
-
-    /**
-     * Get the links for the sim using a normalized sim name like "energy-skate-park-basics"
-     * @param simName
-     * @param locale
-     * @returns {*[]}
-     */
     getLinks: function( simName, locale ) {
       return [
         {
