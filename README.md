@@ -87,5 +87,18 @@ Contact us at our Google Group: <a href="http://groups.google.com/forum/#!forum/
 
 Help us improve, create a <a href="http://github.com/phetsims/acid-base-solutions/issues/new" target="_blank">New Issue</a>
 
-### License
+### License for Code
 See the <a href="https://github.com/phetsims/acid-base-solutions/blob/master/LICENSE" target="_blank">LICENSE</a>
+
+### License for Images
+The PhET name and PhET logo are registered trademarks of The Regents of the
+University of Colorado. Permission is granted to use the PhET name and PhET logo
+only for attribution purposes. Use of the PhET name and/or PhET logo for promotional,
+marketing, or advertising purposes requires a separate license agreement from the
+University of Colorado. Contact phethelp@colorado.edu regarding licensing.
+
+### Licenses for the interoperable versions
+Interoperable PhET Simulations requires a license
+USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED
+Contact phethelp@colorado.edu regarding licensing
+http://phet.colorado.edu/en/licensing
