@@ -46,7 +46,7 @@ To put your own company/group/individual name in the logo and about dialog, foll
 
     // Optional string for the name of the brand.  If non-null, the brand name will appear in the top of the about dialog
     // {string} For example: "My Company"
-    name: 'Simulations 4 Knowlege',
+    name: 'Simulations 4 Knowledge',
 
     // Optional string for the copyright statement.  If non-null, it will appear in the about dialog
     // {string} For example: "Copyright © 2014, My Company"
