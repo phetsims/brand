@@ -97,7 +97,7 @@ only for attribution purposes. Use of the PhET name and/or PhET logo for promoti
 marketing, or advertising purposes requires a separate license agreement from the
 University of Colorado. Contact phethelp@colorado.edu regarding licensing.
 
-### Licenses for the interoperable versions
+### Licenses for the Interoperable Versions
 Interoperable PhET Simulations requires a license
 USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED
 Contact phethelp@colorado.edu regarding licensing
