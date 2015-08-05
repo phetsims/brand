@@ -60,7 +60,10 @@ To put your own company/group/individual name in the logo and about dialog, foll
      * @returns {Array.<string>} -
      */
     getLinks: function( simName, locale ) {
-      return ['http://simulations4knowledge.com'];
+      return [ {
+        text: 'Visit my Awesome Website :)',
+        url: 'http://simulations4knowledge.com'
+      } ];
     }
   };
 ```
