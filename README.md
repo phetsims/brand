@@ -17,16 +17,17 @@ customize their simulations.
 3. `interoperable` This brand is for an interoperable PhET simulation that provides powerful input/output/logging/iframe/API features. More details available in the [interoperable README](interoperable/README.md)
 
 To build a simulation with the default brand, use:
-`grunt`
+```grunt```
 
 To build a simulation with a non-default brand, use a command like the following:
-`grunt --brand=mybrandname`
+```grunt --brand=mybrandname```
 
 You can also view the different brands in the requirejs (nonminified) mode by using a query parameter, such as
-`?brand=mybrandname`
+```?brand=mybrandname```
 
 # Creating your own Brand
 To put your own company/group/individual name in the logo and about dialog, copy the `adapted-from-phet` directory to a 
 new directory with your name.  The name should be lowercase and with hyphens.  Update the entries in the Brand.js as desired
 and make sure the `id` field matches the directory name.  Copy your splash screen and images over the existing images.  
+
 You can test the brand by launching or building the sim with the options described above.
