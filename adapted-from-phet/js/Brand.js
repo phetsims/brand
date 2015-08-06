@@ -8,19 +8,19 @@ define( function() {
 
     // Nickname for the brand, which should match the brand subdirectory name, grunt option for --brand as well as the
     // query parameter for ?brand.  This is used in Joist to provide brand-specific logic, such as what to show in the 
-    // about dialog, decorative text around the PhET button, and whether to check for updates.
+    // About dialog, decorative text around the PhET button, and whether to check for updates.
     id: 'adapted-from-phet',
 
-    // Optional string for the name of the brand.  If non-null, the brand name will appear in the top of the about dialog
+    // Optional string for the name of the brand.  If non-null, the brand name will appear in the top of the About dialog
     // {string} For example: "My Company"
     name: null,
 
-    // Optional string for the copyright statement.  If non-null, it will appear in the about dialog
+    // Optional string for the copyright statement.  If non-null, it will appear in the About dialog
     // {string} For example: "Copyright © 2014, My Company"
     copyright: null,
 
     /**
-     * Return any links to appear in the about dialog.  The sim name and locale can be used for customization if desired.
+     * Return any links to appear in the About dialog.  The sim name and locale can be used for customization if desired.
      * For example: { text: "My Company Support", url: "https://www.mycompany.com/support" }
      * @param {string} simName - the name of the simulation, such as 'bending-light'
      * @param {string} locale - the locale, such as 'en'
