@@ -26,7 +26,7 @@ To build a simulation with a non-default brand, use the `--brand` option. For ex
 grunt --brand=my-brand-name
 ```
 
-You can also view the different brands in the requirejs (nonminified) mode by using a query parameter, such as
+You can also run with a specific brand in the requirejs (nonminified) mode by using the `brand` query parameter. For example:
 ```
 http://simulationURL.html?brand=my-brand-name
 ```
