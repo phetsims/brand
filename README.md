@@ -14,7 +14,7 @@ customize their simulations.  The built-in brands are:
 
 1. `adapted-from-phet` (the default brand) indicates that a simulation is adapted from the original PhET simulation.  More details available in the [adapted-from-phet brand README](adapted-from-phet/README.md)
 2. `phet` The brand for simulations published on the PhET website http://phet.colorado.edu More details available in the [phet brand README](phet/README.md)
-3. `interoperable` This brand is for "interoperable" PhET simulations. Interoperable simulations provide powerful input/output/logging/iframe/API features. More details available in the [interoperable brand README](interoperable/README.md)
+3. `phet-io` The brand for "interoperable" PhET simulations. Interoperable simulations provide powerful input/output/logging/iframe/API features. More details available in the [phet-io brand README](phet-io/README.md)
 
 To build a simulation with the default brand, use:
 ```
@@ -32,7 +32,7 @@ http://simulationURL.html?brand=my-brand-name
 ```
 
 ### Which brand should I use?
-* The "phet" and "interoperable" brands are reserved for use by PhET Interactive Simulations only.  The PhET logo is a registered trademark and is only permitted for use by the PhET team at the University of Colorado.
+* The "phet" and "phet-io" brands are reserved for use by PhET Interactive Simulations only.  The PhET logo is a registered trademark and is only permitted for use by the PhET team at the University of Colorado.
 * The "adapted-from-phet" brand is encouraged for usage in simulations with minor modifications. It provides a black-and-white "Adapted from PhET" logo. This brand can also be used for new simulations based on the PhET libraries, but another option is to create your own brand, which will allow you to easily integrate your own splash screen, company logo and other features.
 
 ### Creating your own brand

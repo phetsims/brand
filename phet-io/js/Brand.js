@@ -11,7 +11,7 @@ define( function( require ) {
 
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   return {
-    id: 'interoperable',
+    id: 'phet-io',
     name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
     copyright: 'Copyright © 2004-2015 University of Colorado Boulder',
     getLinks: function( simName, locale ) {
