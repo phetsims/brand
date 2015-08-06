@@ -5,9 +5,9 @@ features:
 
 1. The splash screen that appears while the simulation is starting
 2. The navigation bar icons
-3. The name which appears in the About dialog
-4. The copyright statement which appears in the About dialog
-5. Links which appear in the About dialog
+3. The organization name that appears in the About dialog
+4. The copyright statement that appears in the About dialog
+5. Links that appear in the About dialog
 
 PhET provides 3 built-in brands and flexibility to easily create new brands to make it easy for 3rd parties to 
 customize their simulations.
