@@ -21,7 +21,7 @@ To build a simulation with the default brand, use:
 grunt
 ```
 
-To build a simulation with a non-default brand, use a command like the following:
+To build a simulation with a non-default brand, use the `--brand` option. For example:
 ```
 grunt --brand=my-brand-name
 ```
