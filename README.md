@@ -4,10 +4,10 @@ PhET Interactive Simulations provides a flexible approach to branding.  This inc
 features:
 
 1. The splash screen
-2. The navbar icons
+2. The navigation bar icons
 3. The name which appears in the about dialog
-4. The copyright statement which appears in the about dialog
-5. Links which appear in the about dialog
+4. The copyright statement which appears in the About dialog
+5. Links which appear in the About dialog
 
 PhET provides 3 built-in brands and flexibility to easily create new brands to make it easy for 3rd parties to 
 customize their simulations.
@@ -23,21 +23,20 @@ grunt
 
 To build a simulation with a non-default brand, use a command like the following:
 ```
-grunt --brand=mybrandname
+grunt --brand=my-brand-name
 ```
 
 You can also view the different brands in the requirejs (nonminified) mode by using a query parameter, such as
 ```
-http://simulationurl.html?brand=mybrandname
+http://simulationURL.html?brand=my-brand-name
 ```
 
 ### Which brand should I use?
 * The "phet" brand is reserved for PhET Interactive Simulations usage only.  The colorized PhET logo is trademarked and only permitted for use by the PhET team at the University of Colorado.
 * The "interoperable" brand is reserved for PhET Interactive Simulations interoperable versions.
-* The "adapted-from-phet" brand which provides the black-and-white "Adapted from PhET" logo (the default) is encouraged for usage in simulations with minor modifications.
-* The "Adapted from PhET" branding can also be used for new simulations based on the PhET libraries, but another option is to create your own brand, which will allow you to easily integrate your own splash screen, company logo and other features. 
+* The "adapted-from-phet" brand, which provides the black-and-white "Adapted from PhET" logo (the default), is encouraged for usage in simulations with minor modifications. This brand can also be used for new simulations based on the PhET libraries, but another option is to create your own brand, which will allow you to easily integrate your own splash screen, company logo and other features.
 
-### Creating your own Brand
+### Creating your own brand
 To put your own company/group/individual name in the logo and about dialog, follow these steps.  For the sake of discussion, let's assume that your company name is named "Simulations 4 Knowledge"
 
 * copy the `adapted-from-phet` directory to a new directory `simulations-4-knowledge'.  Note that this directory name is lower-cased with hyphens and no spaces.
