@@ -1,6 +1,7 @@
 # The `interoperable` brand
 
-The `interoperable` brand has the following features:
+The `interoperable` brand is reserved for use by PhET Interactive Simulations.
+This brand has the following features:
 * the PhET splash screen 
 * the full-color PhET logo
 * credits are shown in the About Dialog
