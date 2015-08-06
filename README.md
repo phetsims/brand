@@ -9,8 +9,8 @@ features:
 4. The copyright statement that appears in the About dialog
 5. Links that appear in the About dialog
 
-PhET provides 3 built-in brands and flexibility to easily create new brands to make it easy for 3rd parties to 
-customize their simulations.
+PhET provides 3 built-in brands and flexibility to easily create new brands, making it easy for 3rd parties to
+customize their simulations.  The built-in brands are:
 
 1. `adapted-from-phet` (the default brand) indicates that a simulation is adapted from the original PhET simulation.  More details available in the [adapted-from-phet brand README](adapted-from-phet/README.md)
 2. `phet` The brand for simulations published on the PhET website http://phet.colorado.edu More details available in the [phet brand README](phet/README.md)
