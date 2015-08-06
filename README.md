@@ -3,9 +3,9 @@
 PhET Interactive Simulations provides a flexible approach to branding.  This includes customization of the following 
 features:
 
-1. The splash screen
+1. The splash screen that appears while the simulation is starting
 2. The navigation bar icons
-3. The name which appears in the about dialog
+3. The name which appears in the About dialog
 4. The copyright statement which appears in the About dialog
 5. Links which appear in the About dialog
 
