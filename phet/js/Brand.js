@@ -7,7 +7,7 @@ define( function( require ) {
   // strings
   var termsPrivacyAndLicensingString = require( 'string!JOIST/termsPrivacyAndLicensing' );
   var translationCreditString = require( 'string!JOIST/translation.credits.link' );
-  var thirdPartyCreditString = require( 'string!JOIST/third-party.credits.link' );
+  var thirdPartyCreditString = require( 'string!JOIST/thirdParty.credits.link' );
 
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   return {
