@@ -26,7 +26,8 @@ define( function( require ) {
         },
         {
           text: thirdPartyCreditString,
-          url: 'http://phet.colorado.edu/third-party-credits?simName=' + encodeURIComponent( simName ) + '&locale=' + encodeURIComponent( locale )
+          url: 'http://phet.colorado.edu/third-party-credits?simName=' + encodeURIComponent( simName ) +
+               '&locale=' + encodeURIComponent( locale ) + '#' + simName
         }
       ];
     }
