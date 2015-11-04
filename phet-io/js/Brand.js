@@ -6,8 +6,8 @@ define( function( require ) {
 
   // strings
   var licenseString = require( 'string!JOIST/license' );
-  var translationCreditString = require( 'string!JOIST/translation.credits.link' );
-  var thirdPartyCreditString = require( 'string!JOIST/thirdParty.credits.link' );
+  var translationCreditsLinkString = require( 'string!JOIST/translation.credits.link' );
+  var thirdPartyCreditsLinkString = require( 'string!JOIST/thirdParty.credits.link' );
 
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   return {
@@ -21,11 +21,11 @@ define( function( require ) {
           url: 'http://phet.colorado.edu/en/licensing/html'
         },
         {
-          text: translationCreditString,
+          text: translationCreditsLinkString,
           url: 'http://phet.colorado.edu/translation-credits?simName=' + encodeURIComponent( simName ) + '&locale=' + encodeURIComponent( locale )
         },
         {
-          text: thirdPartyCreditString,
+          text: thirdPartyCreditsLinkString,
           url: 'http://phet.colorado.edu/third-party-credits?simName=' + encodeURIComponent( simName ) +
                '&locale=' + encodeURIComponent( locale ) + '#' + simName
         }
