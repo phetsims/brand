@@ -4,13 +4,16 @@
 define( function( require ) {
   'use strict';
 
+  // modules
+  var brand = require( 'BRAND/../../js/brand' );
+
   // strings
   var licenseString = require( 'string!JOIST/license' );
   var translationCreditsLinkString = require( 'string!JOIST/translation.credits.link' );
   var thirdPartyCreditsLinkString = require( 'string!JOIST/thirdParty.credits.link' );
 
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
-  return {
+  var Brand = {
     id: 'phet-io',
     name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
     copyright: 'Copyright © 2004-2015 University of Colorado Boulder',
@@ -32,4 +35,8 @@ define( function( require ) {
       ];
     }
   };
+
+  brand.register( 'Brand', Brand );
+
+  return Brand;
 } );

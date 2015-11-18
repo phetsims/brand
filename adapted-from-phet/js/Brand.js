@@ -1,10 +1,13 @@
 // Copyright 2002-2014, University of Colorado Boulder
 
 // Returns branding information for the simulations, see https://github.com/phetsims/brand/issues/1
-define( function() {
+define( function( require ) {
   'use strict';
 
-  return {
+  // modules
+  var brand = require( 'BRAND/../../js/brand' );
+
+  var Brand = {
 
     // Nickname for the brand, which should match the brand subdirectory name, grunt option for --brand as well as the
     // query parameter for ?brand.  This is used in Joist to provide brand-specific logic, such as what to show in the 
@@ -30,4 +33,8 @@ define( function() {
       return [];
     }
   };
+
+  brand.register( 'Brand', Brand );
+
+  return Brand;
 } );
