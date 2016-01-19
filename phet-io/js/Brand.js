@@ -8,7 +8,7 @@ define( function( require ) {
   var brand = require( 'BRAND/../../js/brand' );
 
   // strings
-  var licenseString = require( 'string!JOIST/license' );
+  var termsPrivacyAndLicensingString = require( 'string!JOIST/termsPrivacyAndLicensing' );
   var translationCreditsLinkString = require( 'string!JOIST/translation.credits.link' );
   var thirdPartyCreditsLinkString = require( 'string!JOIST/thirdParty.credits.link' );
 
@@ -20,7 +20,7 @@ define( function( require ) {
     getLinks: function( simName, locale ) {
       return [
         {
-          text: licenseString,
+          text: termsPrivacyAndLicensingString,
           url: 'http://phet.colorado.edu/en/licensing/html'
         },
         {
