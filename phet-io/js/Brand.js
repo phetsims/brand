@@ -1,4 +1,4 @@
-// Copyright 2002-2014, University of Colorado Boulder
+// Copyright 2002-2016, University of Colorado Boulder
 
 // Returns branding information for the simulations, see https://github.com/phetsims/brand/issues/1
 define( function( require ) {
@@ -16,7 +16,7 @@ define( function( require ) {
   var Brand = {
     id: 'phet-io',
     name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
-    copyright: 'Copyright © 2004-2015 University of Colorado Boulder',
+    copyright: 'Copyright © 2004-2016 University of Colorado Boulder',
     getLinks: function( simName, locale ) {
       return [
         {

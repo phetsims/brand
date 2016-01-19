@@ -16,7 +16,7 @@ define( function( require ) {
   var Brand = {
     id: 'phet',
     name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
-    copyright: 'Copyright © 2004-2015 University of Colorado Boulder', // no i18n
+    copyright: 'Copyright © 2004-2016 University of Colorado Boulder', // no i18n
     getLinks: function( simName, locale ) {
       return [
         {
