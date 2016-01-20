@@ -17,6 +17,9 @@ define( function( require ) {
     id: 'phet-io',
     name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
     copyright: 'Copyright © 2004-2016 University of Colorado Boulder',
+    additionalLicenseStatement: 'This PhET-iO interoperable simulation file requires a license.\n' +
+                                'USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED.\n' +
+                                'Contact phethelp@colorado.edu regarding licensing.',
     getLinks: function( simName, locale ) {
       return [
         {
