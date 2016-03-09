@@ -14,22 +14,26 @@ define( function( require ) {
     id: 'phet',
     name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
     copyright: 'Copyright © 2004-2015 University of Colorado Boulder', // no i18n
+    isPhetApp: !!phet.chipper.getQueryParameter( 'phet-app' ),
     getLinks: function( simName, locale ) {
-      return [
-        {
+      var links = [];
+      if ( !this.isPhetApp ) {
+        links.push( {
           text: termsPrivacyAndLicensingString,
           url: 'http://phet.colorado.edu/en/licensing/html'
-        },
-        {
-          text: translationCreditString,
-          url: 'http://phet.colorado.edu/translation-credits?simName=' + encodeURIComponent( simName ) + '&locale=' + encodeURIComponent( locale )
-        },
-        {
-          text: thirdPartyCreditString,
-          url: 'http://phet.colorado.edu/third-party-credits?simName=' + encodeURIComponent( simName ) +
-               '&locale=' + encodeURIComponent( locale ) + '#' + simName
-        }
-      ];
+        } );
+        links.push( {
+          text: translationCreditsLinkString,
+          url: 'http://phet.colorado.edu/translation-credits?simName=' + encodeURIComponent( simName ) +
+               '&locale=' + encodeURIComponent( locale )
+        } );
+      }
+      links.push( {
+        text: thirdPartyCreditsLinkString,
+        url: 'http://phet.colorado.edu/third-party-credits?simName=' + encodeURIComponent( simName ) +
+             '&locale=' + encodeURIComponent( locale ) + '#' + simName
+      } );
+      return links;
     }
   };
 } );
