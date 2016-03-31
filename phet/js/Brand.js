@@ -16,24 +16,18 @@ define( function( require ) {
     copyright: 'Copyright © 2004-2015 University of Colorado Boulder', // no i18n
     isPhetApp: !!phet.chipper.getQueryParameter( 'phet-app' ),
     getLinks: function( simName, locale ) {
-      var links = [];
-      if ( !this.isPhetApp ) {
-        links.push( {
-          text: termsPrivacyAndLicensingString,
-          url: 'http://phet.colorado.edu/en/licensing/html'
-        } );
-        links.push( {
-          text: translationCreditsLinkString,
-          url: 'http://phet.colorado.edu/translation-credits?simName=' + encodeURIComponent( simName ) +
-               '&locale=' + encodeURIComponent( locale )
-        } );
-      }
-      links.push( {
+      return [ {
+        text: termsPrivacyAndLicensingString,
+        url: 'http://phet.colorado.edu/en/licensing/html'
+      }, {
+        text: translationCreditsLinkString,
+        url: 'http://phet.colorado.edu/translation-credits?simName=' + encodeURIComponent( simName ) +
+             '&locale=' + encodeURIComponent( locale )
+      }, {
         text: thirdPartyCreditsLinkString,
         url: 'http://phet.colorado.edu/third-party-credits?simName=' + encodeURIComponent( simName ) +
              '&locale=' + encodeURIComponent( locale ) + '#' + simName
-      } );
-      return links;
+      } ];
     }
   };
 } );
