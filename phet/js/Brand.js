@@ -20,11 +20,11 @@ define( function( require ) {
         text: termsPrivacyAndLicensingString,
         url: 'http://phet.colorado.edu/en/licensing/html'
       }, {
-        text: translationCreditsLinkString,
+        text: translationCreditString,
         url: 'http://phet.colorado.edu/translation-credits?simName=' + encodeURIComponent( simName ) +
              '&locale=' + encodeURIComponent( locale )
       }, {
-        text: thirdPartyCreditsLinkString,
+        text: thirdPartyCreditString,
         url: 'http://phet.colorado.edu/third-party-credits?simName=' + encodeURIComponent( simName ) +
              '&locale=' + encodeURIComponent( locale ) + '#' + simName
       } ];
