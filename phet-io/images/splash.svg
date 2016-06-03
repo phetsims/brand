@@ -44,4 +44,7 @@
 		c0,0.3-0.022,0.595-0.044,0.889h0.044v39.847h26.354c0,0,0,3.149,0-38.224C163.596,87.062,162.635,72.795,145.407,64.392z"/>
 	<text transform="matrix(1 0 0 1 483.0859 136.7812)" fill="#72C9F1" font-family="'ArialMT'" font-size="10.5657">TM</text>
 </g>
+	<g>
+	<text transform="matrix(1 0 0 1 188.709 282)" fill="#FFFFFF" font-family="'Tahoma'" font-size="29">Loading...</text>
+</g>
 </svg>
