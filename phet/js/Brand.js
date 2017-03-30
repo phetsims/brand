@@ -17,7 +17,7 @@ define( function( require ) {
     id: 'phet',
     name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
     copyright: 'Copyright © 2004-2016 University of Colorado Boulder', // no i18n
-    isPhetApp: !!phet.chipper.getQueryParameter( 'phet-app' ),
+    isPhetApp: !!phet.chipper.getQueryParameter( 'phet-app' ) || !!phet.chipper.getQueryParameter( 'phet-android-app' ),
     getLinks: function( simName, locale ) {
       return [ {
         text: termsPrivacyAndLicensingString,
