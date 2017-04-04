@@ -16,7 +16,7 @@ define( function( require ) {
   var Brand = {
     id: 'phet-io',
     name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
-    copyright: 'Copyright © 2004-2016 University of Colorado Boulder',
+    copyright: 'Copyright © 2004-2017 University of Colorado Boulder',
     additionalLicenseStatement: 'This PhET-iO interoperable simulation file requires a license.\n' +
                                 'USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED.\n' +
                                 'Contact phethelp@colorado.edu regarding licensing.',
