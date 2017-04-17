@@ -19,18 +19,21 @@ define( function( require ) {
     copyright: 'Copyright © 2004-2017 University of Colorado Boulder', // no i18n
     isPhetApp: phet.chipper.queryParameters[ 'phet-app' ] || phet.chipper.queryParameters[ 'phet-android-app' ],
     getLinks: function( simName, locale ) {
-      return [ {
-        text: termsPrivacyAndLicensingString,
-        url: 'http://phet.colorado.edu/en/licensing/html'
-      }, {
-        text: translationCreditsLinkString,
-        url: 'http://phet.colorado.edu/translation-credits?simName=' + encodeURIComponent( simName ) +
-             '&locale=' + encodeURIComponent( locale )
-      }, {
-        text: thirdPartyCreditsLinkString,
-        url: 'http://phet.colorado.edu/third-party-credits?simName=' + encodeURIComponent( simName ) +
-             '&locale=' + encodeURIComponent( locale ) + '#' + simName
-      } ];
+      return [
+        {
+          text: termsPrivacyAndLicensingString,
+          url: 'http://phet.colorado.edu/en/licensing/html'
+        },
+        {
+          text: translationCreditsLinkString,
+          url: 'http://phet.colorado.edu/translation-credits?simName=' + encodeURIComponent( simName ) +
+               '&locale=' + encodeURIComponent( locale )
+        },
+        {
+          text: thirdPartyCreditsLinkString,
+          url: 'http://phet.colorado.edu/third-party-credits?simName=' + encodeURIComponent( simName ) +
+               '&locale=' + encodeURIComponent( locale ) + '#' + simName
+        } ];
     }
   };
 
