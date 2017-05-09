@@ -22,6 +22,9 @@ define( function( require ) {
     // {string} For example: "Copyright © 2014, My Company"
     copyright: null,
 
+    // Indicating that the features of the PhET-iO framework are not included in this brand.
+    phetioEnabled: false,
+
     /**
      * Return any links to appear in the About dialog.  The sim name and locale can be used for customization if desired.
      * For example: { text: "My Company Support", url: "https://www.mycompany.com/support" }
