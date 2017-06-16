@@ -10,8 +10,7 @@ define( function( require ) {
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   var Brand = {
     id: 'noBrand',
-    name: 'No Brand', // no i18n
-    phetioEnabled: false
+    name: 'No Brand'
   };
 
   brand.register( 'Brand', Brand );
