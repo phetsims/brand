@@ -21,9 +21,9 @@ To build a simulation with the default brand, use:
 grunt
 ```
 
-To build a simulation with a non-default brand, use the `--brand` option. For example:
+To build a simulation with a non-default brand, use the `--brands` option. For example:
 ```
-grunt --brand=my-brand-name
+grunt --brands=my-brand-name
 ```
 
 You can also run with a specific brand in the requirejs (nonminified) mode by using the `brand` query parameter. For example:
@@ -78,7 +78,7 @@ To put your own organization's name in the logo and About dialog, follow these s
 ```
 * Build the simulation with
 ```
-grunt --brand=simulations-4-knowledge
+grunt --brands=simulations-4-knowledge
 ```
 * Test by launching the built simulation in the browser.
 
