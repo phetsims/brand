@@ -11,5 +11,8 @@
   },
   "phet": {
     "requirejsNamespace": "BRAND"
+  },
+  "eslintConfig": {
+    "extends": "../chipper/eslint/.eslintrc.js"
   }
 }
