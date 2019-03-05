@@ -15,7 +15,7 @@ define( function( require ) {
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   var Brand = {
     id: 'phet',
-    name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
+    name: 'PhET\u2122 Interactive Simulations', // no i18n
     copyright: 'Copyright © 2002-{{year}} University of Colorado Boulder', // no i18n
     phetioEnabled: false,
     isPhetApp: phet.chipper.queryParameters[ 'phet-app' ] || phet.chipper.queryParameters[ 'phet-android-app' ],
