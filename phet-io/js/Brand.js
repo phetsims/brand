@@ -15,7 +15,7 @@ define( function( require ) {
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   var Brand = {
     id: 'phet-io',
-    name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
+    name: 'PhET\u2122 Interactive Simulations', // no i18n
     copyright: 'Copyright © 2002-{{year}} University of Colorado Boulder',
     additionalLicenseStatement: 'This PhET-iO interoperable simulation file requires a license.<br>' +
                                 'USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED.<br>' +
