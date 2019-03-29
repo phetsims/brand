@@ -12,7 +12,7 @@ define( function( require ) {
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   return {
     id: 'phet-io',
-    name: 'PhET<sup>\u00ae</sup> Interactive Simulations', // no i18n
+    name: 'PhET\u2122 Interactive Simulations', // no i18n
     copyright: 'Copyright © 2004-2015 University of Colorado Boulder',
     getLinks: function( simName, locale ) {
       return [
