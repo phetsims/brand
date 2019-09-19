@@ -1,11 +1,11 @@
 // Copyright 2002-2014, University of Colorado Boulder
 
 // Returns branding information for the simulations, see https://github.com/phetsims/brand/issues/1
-define( function( require ) {
+define( require => {
   'use strict';
 
   // modules
-  var brand = require( 'BRAND/../../js/brand' );
+  const brand = require( 'BRAND/../../js/brand' );
 
   var Brand = {
 

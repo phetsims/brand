@@ -1,16 +1,16 @@
 // Copyright 2002-2014, University of Colorado Boulder
 
 // Returns branding information for the simulations, see https://github.com/phetsims/brand/issues/1
-define( function( require ) {
+define( require => {
   'use strict';
 
   // modules
-  var brand = require( 'BRAND/../../js/brand' );
+  const brand = require( 'BRAND/../../js/brand' );
 
   // strings
-  var termsPrivacyAndLicensingString = require( 'string!JOIST/termsPrivacyAndLicensing' );
-  var translationCreditsLinkString = require( 'string!JOIST/translation.credits.link' );
-  var thirdPartyCreditsLinkString = require( 'string!JOIST/thirdParty.credits.link' );
+  const termsPrivacyAndLicensingString = require( 'string!JOIST/termsPrivacyAndLicensing' );
+  const translationCreditsLinkString = require( 'string!JOIST/translation.credits.link' );
+  const thirdPartyCreditsLinkString = require( 'string!JOIST/thirdParty.credits.link' );
 
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   var Brand = {
