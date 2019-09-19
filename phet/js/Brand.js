@@ -13,7 +13,7 @@ define( require => {
   const thirdPartyCreditsLinkString = require( 'string!JOIST/thirdParty.credits.link' );
 
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
-  var Brand = {
+  const Brand = {
     id: 'phet',
     name: 'PhET\u2122 Interactive Simulations', // no i18n
     copyright: 'Copyright © 2002-{{year}} University of Colorado Boulder', // no i18n

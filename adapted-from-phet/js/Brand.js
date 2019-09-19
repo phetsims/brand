@@ -7,7 +7,7 @@ define( require => {
   // modules
   const brand = require( 'BRAND/../../js/brand' );
 
-  var Brand = {
+  const Brand = {
 
     // Nickname for the brand, which should match the brand subdirectory name, grunt option for --brand as well as the
     // query parameter for ?brand.  This is used in Joist to provide brand-specific logic, such as what to show in the 
