@@ -13,7 +13,6 @@ define( require => {
     id: 'phet',
     name: 'PhET\u2122 Interactive Simulations', // no i18n
     copyright: 'Copyright © 2002-{{year}} University of Colorado Boulder', // no i18n
-    isPhetApp: phet.chipper.queryParameters[ 'phet-app' ] || phet.chipper.queryParameters[ 'phet-android-app' ],
     getLinks: getLinks
   };
 
