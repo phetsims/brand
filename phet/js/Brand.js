@@ -6,14 +6,15 @@ define( require => {
 
   // modules
   const brand = require( 'BRAND/../../js/brand' );
-  const getLinks = require( 'BRAND/../../js/getLinks' );
 
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   const Brand = {
     id: 'phet',
     name: 'PhET\u2122 Interactive Simulations', // no i18n
     copyright: 'Copyright © 2002-{{year}} University of Colorado Boulder', // no i18n
-    getLinks: getLinks
+    getLinks: function( simName, locale, getPhetLinks ) {
+      return getPhetLinks( simName, locale );
+    }
   };
 
   brand.register( 'Brand', Brand );
