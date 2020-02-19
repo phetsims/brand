@@ -29,7 +29,7 @@ define( require => {
       {
         text: termsPrivacyAndLicensingString,
         url: 'http://phet.colorado.edu/en/licensing/html',
-        tandemName: 'termsPrivacyAndLicensingText'
+        tandemName: 'termsPrivacyAndLicensingLinkText'
       },
       {
         text: translationCreditsLinkString,
