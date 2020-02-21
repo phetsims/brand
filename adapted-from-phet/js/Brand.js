@@ -6,6 +6,8 @@ define( require => {
 
   // modules
   const brand = require( 'BRAND/../../js/brand' );
+  const logoOnWhiteBackground = require( 'image!BRAND/logo-on-white.png' );
+  const logoOnBlackBackground = require( 'image!BRAND/logo.png' );
 
   const Brand = {
 
@@ -31,7 +33,9 @@ define( require => {
      */
     getLinks: function( simName, locale ) {
       return [];
-    }
+    },
+    logoOnBlackBackground: logoOnBlackBackground,
+    logoOnWhiteBackground: logoOnWhiteBackground
   };
 
   brand.register( 'Brand', Brand );

@@ -6,6 +6,8 @@ define( require => {
 
   // modules
   const brand = require( 'BRAND/../../js/brand' );
+  const logoOnWhiteBackground = require( 'image!BRAND/logo-on-white.png' );
+  const logoOnBlackBackground = require( 'image!BRAND/logo.png' );
 
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   const Brand = {
@@ -17,7 +19,9 @@ define( require => {
                                 'Contact phethelp@colorado.edu regarding licensing.',
     getLinks: function( simName, locale, getPhetLinks ) {
       return getPhetLinks( simName, locale );
-    }
+    },
+    logoOnBlackBackground: logoOnBlackBackground,
+    logoOnWhiteBackground: logoOnWhiteBackground
   };
 
   brand.register( 'Brand', Brand );
