@@ -6,6 +6,7 @@ define( require => {
 
   // modules
   const brand = require( 'BRAND/../../js/brand' );
+  const getLinks = require( 'BRAND/../../js/getLinks' );
   const logoOnWhiteBackground = require( 'image!BRAND/logo-on-white.png' );
   const logoOnBlackBackground = require( 'image!BRAND/logo.png' );
 
@@ -14,9 +15,7 @@ define( require => {
     id: 'phet',
     name: 'PhET\u2122 Interactive Simulations', // no i18n
     copyright: 'Copyright © 2002-{{year}} University of Colorado Boulder', // no i18n
-    getLinks: function( simName, locale, getPhetLinks ) {
-      return getPhetLinks( simName, locale );
-    },
+    getLinks: getLinks,
     logoOnBlackBackground: logoOnBlackBackground,
     logoOnWhiteBackground: logoOnWhiteBackground
   };

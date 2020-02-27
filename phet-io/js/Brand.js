@@ -8,6 +8,7 @@ define( require => {
   const brand = require( 'BRAND/../../js/brand' );
   const logoOnWhiteBackground = require( 'image!BRAND/logo-on-white.png' );
   const logoOnBlackBackground = require( 'image!BRAND/logo.png' );
+  const getLinks = require( 'BRAND/../../js/getLinks' );
 
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   const Brand = {
@@ -17,9 +18,7 @@ define( require => {
     additionalLicenseStatement: 'This PhET-iO interoperable simulation file requires a license.<br>' +
                                 'USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED.<br>' +
                                 'Contact phethelp@colorado.edu regarding licensing.',
-    getLinks: function( simName, locale, getPhetLinks ) {
-      return getPhetLinks( simName, locale );
-    },
+    getLinks: getLinks,
     logoOnBlackBackground: logoOnBlackBackground,
     logoOnWhiteBackground: logoOnWhiteBackground
   };
