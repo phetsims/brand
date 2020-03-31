@@ -8,7 +8,7 @@
  * @author Chris Klusendorf (PhET Interactive Simulations)
  */
 
-import joistStrings from '../../joist/js/joist-strings.js';
+import joistStrings from '../../joist/js/joistStrings.js';
 import brand from './brand.js';
 
 const termsPrivacyAndLicensingString = joistStrings.termsPrivacyAndLicensing;
