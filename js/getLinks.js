@@ -36,7 +36,7 @@ const getLinks = ( simName, locale ) => {
     {
       text: thirdPartyCreditsLinkString,
       url: `http://phet.colorado.edu/third-party-credits?simName=${encodeURIComponent( simName )
-           }&locale=${encodeURIComponent( locale )}#${simName}`,
+      }&locale=${encodeURIComponent( locale )}#${simName}`,
       tandemName: 'thirdPartyCreditsLinkText'
     }
   ];
