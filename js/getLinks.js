@@ -1,4 +1,4 @@
-[object Promise]
+// Copyright 2019-2021, University of Colorado Boulder
 
 /**
  * Links for the AboutDialog, used in phet brand and phet-io brand since they are the same for both.
