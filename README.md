@@ -72,6 +72,15 @@ To put your own organization's name in the logo and About dialog, follow these s
   };
 ```
 * Copy your images over the existing images in `brand/simulations-4-knowledge/images`
+* Add your brand name to the list of `supportedBrands` in your simulation's package.json
+```json
+  "phet": {
+    "supportedBrands": [
+      "phet",
+      "my-brand",
+      "adapted-from-phet"
+    ],
+```
 * Test the simulation by launching it in the browser with the query parameter
 ```
 ?brand=simulations-4-knowledge
