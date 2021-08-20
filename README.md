@@ -77,8 +77,8 @@ To put your own organization's name in the logo and About dialog, follow these s
   "phet": {
     "supportedBrands": [
       "phet",
-      "my-brand",
-      "adapted-from-phet"
+      "adapted-from-phet",
+      "simulations-4-knowledge"
     ],
 ```
 * Test the simulation by launching it in the browser with the query parameter
