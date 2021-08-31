@@ -25,17 +25,17 @@ const getLinks = ( simName, locale ) => {
   return [
     {
       text: termsPrivacyAndLicensingString,
-      url: 'http://phet.colorado.edu/en/licensing/html',
+      url: 'https://phet.colorado.edu/en/licensing/html',
       tandemName: 'termsPrivacyAndLicensingLinkText'
     },
     {
       text: translationCreditsLinkString,
-      url: `http://phet.colorado.edu/translation-credits?simName=${encodeURIComponent( simName )}&locale=${encodeURIComponent( locale )}`,
+      url: `https://phet.colorado.edu/translation-credits?simName=${encodeURIComponent( simName )}&locale=${encodeURIComponent( locale )}`,
       tandemName: 'translationCreditsLinkText'
     },
     {
       text: thirdPartyCreditsLinkString,
-      url: `http://phet.colorado.edu/third-party-credits?simName=${encodeURIComponent( simName )
+      url: `https://phet.colorado.edu/third-party-credits?simName=${encodeURIComponent( simName )
       }&locale=${encodeURIComponent( locale )}#${simName}`,
       tandemName: 'thirdPartyCreditsLinkText'
     }
