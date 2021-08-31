@@ -13,7 +13,7 @@ PhET provides 3 built-in brands and flexibility to easily create new brands, mak
 customize their simulations.  The built-in brands are:
 
 1. `adapted-from-phet` (the default brand) indicates that a simulation is adapted from the original PhET simulation.  More details available in the [adapted-from-phet brand README](adapted-from-phet/README.md)
-2. `phet` The brand for simulations published on the PhET website http://phet.colorado.edu More details available in the [phet brand README](phet/README.md)
+2. `phet` The brand for simulations published on the PhET website https://phet.colorado.edu More details available in the [phet brand README](phet/README.md)
 3. `phet-io` The brand for "interoperable" PhET simulations. Interoperable simulations provide powerful input/output/logging/iframe/API features. More details available in the [phet-io brand README](phet-io/README.md)
 
 To build a simulation with the default brand, use:
@@ -111,4 +111,4 @@ University of Colorado. Contact phethelp@colorado.edu regarding licensing.
 Interoperable PhET Simulations requires a license
 USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED
 Contact phethelp@colorado.edu regarding licensing
-http://phet.colorado.edu/en/licensing
+https://phet.colorado.edu/en/licensing
