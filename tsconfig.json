@@ -1,0 +1,21 @@
+{
+  "extends": "../chipper/tsconfig-core.json",
+  "references": [
+    {
+      "path": "../phet-core"
+    },{
+      "path": "../chipper"
+    }
+  ],
+  "include": [
+    "js/**/*",
+    "phet/js/Brand.js",
+    "phet/images/**/*",
+    "phet-io/js/Brand.js",
+    "phet-io/images/**/*",
+    "adapted-from-phet/js/Brand.js",
+    "adapted-from-phet/images/**/*",
+    "../joist/js/joist.js",
+    "../joist/js/joistStrings.js",
+  ]
+}
