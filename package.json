@@ -10,7 +10,8 @@
     "grunt": "~1.4.0"
   },
   "phet": {
-    "requirejsNamespace": "BRAND"
+    "requirejsNamespace": "BRAND",
+    "supportsOutputJS": true
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js"
