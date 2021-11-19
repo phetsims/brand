@@ -16,6 +16,6 @@
     "adapted-from-phet/js/Brand.js",
     "adapted-from-phet/images/**/*",
     "../joist/js/joist.js",
-    "../joist/js/joistStrings.js",
+    "../joist/js/joistStrings.ts",
   ]
 }
