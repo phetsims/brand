@@ -5,8 +5,8 @@
 
 import brand from '../../js/brand.js';
 import getLinks from '../../js/getLinks.js';
-import logoOnWhiteBackground from '../images/logo-on-white_png.js';
-import logoOnBlackBackground from '../images/logo_png.js';
+import logo_png from '../images/logo_png.js';
+import logoOnWhite_png from '../images/logoOnWhite_png.js';
 
 // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
 const Brand = {
@@ -17,8 +17,8 @@ const Brand = {
                               'USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED.<br>' +
                               'Contact phethelp@colorado.edu regarding licensing.',
   getLinks: getLinks,
-  logoOnBlackBackground: logoOnBlackBackground,
-  logoOnWhiteBackground: logoOnWhiteBackground
+  logoOnBlackBackground: logo_png,
+  logoOnWhiteBackground: logoOnWhite_png
 };
 
 brand.register( 'Brand', Brand );
