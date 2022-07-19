@@ -7,9 +7,10 @@ import brand from '../../js/brand.js';
 import getLinks from '../../js/getLinks.js';
 import logo_png from '../images/logo_png.js';
 import logoOnWhite_png from '../images/logoOnWhite_png.js';
+import IBrand from '../../js/IBrand.js';
 
 // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
-const Brand = {
+const Brand: IBrand = {
   id: 'phet-io',
   name: 'PhET\u2122 Interactive Simulations', // no i18n
   copyright: 'Copyright © 2002-{{year}} University of Colorado Boulder',

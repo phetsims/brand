@@ -15,13 +15,13 @@ const termsPrivacyAndLicensingString = joistStrings.termsPrivacyAndLicensing;
 const translationCreditsLinkString = joistStrings.translation.credits.link;
 const thirdPartyCreditsLinkString = joistStrings.thirdParty.credits.link;
 
-/**
- * @param {string} simName
- * @param {string} locale
- * @returns {Object[]}
- * @public
- */
-const getLinks = ( simName, locale ) => {
+export type LinkObject = {
+  text: string;
+  url: string;
+  tandemName: string;
+};
+
+const getLinks = ( simName: string, locale: string ): LinkObject[] => {
   return [
     {
       text: termsPrivacyAndLicensingString,
@@ -35,8 +35,7 @@ const getLinks = ( simName, locale ) => {
     },
     {
       text: thirdPartyCreditsLinkString,
-      url: `https://phet.colorado.edu/third-party-credits?simName=${encodeURIComponent( simName )
-      }&locale=${encodeURIComponent( locale )}#${simName}`,
+      url: `https://phet.colorado.edu/third-party-credits?simName=${encodeURIComponent( simName )}&locale=${encodeURIComponent( locale )}#${simName}`,
       tandemName: 'thirdPartyCreditsLinkText'
     }
   ];

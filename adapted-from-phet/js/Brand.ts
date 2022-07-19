@@ -4,10 +4,11 @@
 
 
 import brand from '../../js/brand.js';
+import IBrand from '../../js/IBrand.js';
 import logoOnWhite_png from '../images/logoOnWhite_png.js';
 import logo_png from '../images/logo_png.js';
 
-const Brand = {
+const Brand: IBrand = {
 
   // Nickname for the brand, which should match the brand subdirectory name, grunt option for --brand as well as the
   // query parameter for ?brand.  This is used in Joist to provide brand-specific logic, such as what to show in the 
@@ -25,13 +26,8 @@ const Brand = {
   /**
    * Return any links to appear in the About dialog.  The sim name and locale can be used for customization if desired.
    * For example: { text: "My Company Support", url: "https://www.mycompany.com/support" }
-   * @param {string} simName - the name of the simulation, such as 'bending-light'
-   * @param {string} locale - the locale, such as 'en'
-   * @returns {Array.<string>} -
    */
-  getLinks: function( simName, locale ) {
-    return [];
-  },
+  getLinks: function() { return []; },
   logoOnBlackBackground: logo_png,
   logoOnWhiteBackground: logoOnWhite_png
 };
