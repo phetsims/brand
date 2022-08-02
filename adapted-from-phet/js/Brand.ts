@@ -4,11 +4,11 @@
 
 
 import brand from '../../js/brand.js';
-import IBrand from '../../js/IBrand.js';
+import TBrand from '../../js/TBrand.js';
 import logoOnWhite_png from '../images/logoOnWhite_png.js';
 import logo_png from '../images/logo_png.js';
 
-const Brand: IBrand = {
+const Brand: TBrand = {
 
   // Nickname for the brand, which should match the brand subdirectory name, grunt option for --brand as well as the
   // query parameter for ?brand.  This is used in Joist to provide brand-specific logic, such as what to show in the 

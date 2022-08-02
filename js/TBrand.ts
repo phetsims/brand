@@ -2,7 +2,7 @@
 
 import getLinks from './getLinks.js';
 
-type IBrand = {
+type TBrand = {
   id: string;
   name: string;
   copyright: string;
@@ -12,4 +12,4 @@ type IBrand = {
   logoOnWhiteBackground: HTMLImageElement;
 };
 
-export default IBrand;
+export default TBrand;
