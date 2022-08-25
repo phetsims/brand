@@ -8,15 +8,16 @@
  * @author Chris Klusendorf (PhET Interactive Simulations)
  */
 
+import TReadOnlyProperty from '../../axon/js/TReadOnlyProperty.js';
 import joistStrings from '../../joist/js/joistStrings.js';
 import brand from './brand.js';
 
-const termsPrivacyAndLicensingString = joistStrings.termsPrivacyAndLicensing;
-const translationCreditsLinkString = joistStrings.translation.credits.link;
-const thirdPartyCreditsLinkString = joistStrings.thirdParty.credits.link;
+const termsPrivacyAndLicensingString = joistStrings.termsPrivacyAndLicensingProperty;
+const translationCreditsLinkString = joistStrings.translation.credits.linkProperty;
+const thirdPartyCreditsLinkString = joistStrings.thirdParty.credits.linkProperty;
 
 export type LinkObject = {
-  text: string;
+  text: TReadOnlyProperty<string>;
   url: string;
   tandemName: string;
 };
