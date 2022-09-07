@@ -9,12 +9,12 @@
  */
 
 import TReadOnlyProperty from '../../axon/js/TReadOnlyProperty.js';
-import joistStrings from '../../joist/js/joistStrings.js';
+import JoistStrings from '../../joist/js/JoistStrings.js';
 import brand from './brand.js';
 
-const termsPrivacyAndLicensingString = joistStrings.termsPrivacyAndLicensingStringProperty;
-const translationCreditsLinkString = joistStrings.translation.credits.linkStringProperty;
-const thirdPartyCreditsLinkString = joistStrings.thirdParty.credits.linkStringProperty;
+const termsPrivacyAndLicensingString = JoistStrings.termsPrivacyAndLicensingStringProperty;
+const translationCreditsLinkString = JoistStrings.translation.credits.linkStringProperty;
+const thirdPartyCreditsLinkString = JoistStrings.thirdParty.credits.linkStringProperty;
 
 export type LinkObject = {
   text: TReadOnlyProperty<string>;
