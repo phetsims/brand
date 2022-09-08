@@ -4,8 +4,8 @@ import getLinks from './getLinks.js';
 
 type TBrand = {
   id: string;
-  name: string;
-  copyright: string;
+  name: string | null;
+  copyright: string | null;
   getLinks: typeof getLinks;
   additionalLicenseStatement?: string;
   logoOnBlackBackground: HTMLImageElement;
