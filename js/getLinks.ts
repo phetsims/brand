@@ -12,9 +12,9 @@ import TReadOnlyProperty from '../../axon/js/TReadOnlyProperty.js';
 import JoistStrings from '../../joist/js/JoistStrings.js';
 import brand from './brand.js';
 
-const termsPrivacyAndLicensingString = JoistStrings.termsPrivacyAndLicensingStringProperty;
-const translationCreditsLinkString = JoistStrings.translation.credits.linkStringProperty;
-const thirdPartyCreditsLinkString = JoistStrings.thirdParty.credits.linkStringProperty;
+const termsPrivacyAndLicensingStringProperty = JoistStrings.termsPrivacyAndLicensingStringProperty;
+const translationCreditsLinkStringProperty = JoistStrings.translation.credits.linkStringProperty;
+const thirdPartyCreditsLinkStringProperty = JoistStrings.thirdParty.credits.linkStringProperty;
 
 export type LinkObject = {
   text: TReadOnlyProperty<string>;
@@ -25,17 +25,17 @@ export type LinkObject = {
 const getLinks = ( simName: string, locale: string ): LinkObject[] => {
   return [
     {
-      text: termsPrivacyAndLicensingString,
+      text: termsPrivacyAndLicensingStringProperty,
       url: 'https://phet.colorado.edu/en/licensing/html',
       tandemName: 'termsPrivacyAndLicensingLinkText'
     },
     {
-      text: translationCreditsLinkString,
+      text: translationCreditsLinkStringProperty,
       url: `https://phet.colorado.edu/translation-credits?simName=${encodeURIComponent( simName )}&locale=${encodeURIComponent( locale )}`,
       tandemName: 'translationCreditsLinkText'
     },
     {
-      text: thirdPartyCreditsLinkString,
+      text: thirdPartyCreditsLinkStringProperty,
       url: `https://phet.colorado.edu/third-party-credits?simName=${encodeURIComponent( simName )}&locale=${encodeURIComponent( locale )}#${simName}`,
       tandemName: 'thirdPartyCreditsLinkText'
     }
