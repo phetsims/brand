@@ -65,7 +65,7 @@ To put your own organization's name in the logo and About dialog, follow these s
      */
     getLinks: function( simName, locale ) {
       return [ {
-        text: 'Visit my Awesome Website :)',
+        textStringProperty: new Property( 'Visit my Awesome Website :)' ),
         url: 'http://simulations4knowledge.com'
       } ];
     }

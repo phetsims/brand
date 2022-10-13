@@ -25,7 +25,7 @@ const Brand: TBrand = {
 
   /**
    * Return any links to appear in the About dialog.  The sim name and locale can be used for customization if desired.
-   * For example: { text: "My Company Support", url: "https://www.mycompany.com/support" }
+   * For example: { textStringProperty: new Property( "My Company Support" ), url: "https://www.mycompany.com/support" }
    */
   getLinks: function() { return []; },
   logoOnBlackBackground: logo_png,
