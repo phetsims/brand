@@ -9,6 +9,7 @@
  */
 
 import TReadOnlyProperty from '../../axon/js/TReadOnlyProperty.js';
+import { Locale } from '../../joist/js/i18n/localeProperty.js';
 import JoistStrings from '../../joist/js/JoistStrings.js';
 import brand from './brand.js';
 
@@ -22,7 +23,7 @@ export type LinkObject = {
   tandemName: string;
 };
 
-const getLinks = ( simName: string, locale: string ): LinkObject[] => {
+const getLinks = ( simName: string, locale: Locale ): LinkObject[] => {
   return [
     {
       textStringProperty: termsPrivacyAndLicensingStringProperty,
