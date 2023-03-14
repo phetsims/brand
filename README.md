@@ -112,3 +112,6 @@ Interoperable PhET Simulations requires a license
 USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED
 Contact phethelp@colorado.edu regarding licensing
 https://phet.colorado.edu/en/licensing
+
+### Contributing
+If you would like to contribute to this repo, please read our [contributing guidelines](https://github.com/phetsims/community/blob/master/CONTRIBUTING.md).
