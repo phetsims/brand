@@ -98,7 +98,7 @@ Contact us at our Google Group: <a href="http://groups.google.com/forum/#!forum/
 Help us improve by creating a <a href="http://github.com/phetsims/acid-base-solutions/issues/new" target="_blank">New GitHub Issue</a>
 
 ### License for Code
-See the <a href="https://github.com/phetsims/acid-base-solutions/blob/master/LICENSE" target="_blank">LICENSE</a>
+See the <a href="https://github.com/phetsims/acid-base-solutions/blob/main/LICENSE" target="_blank">LICENSE</a>
 
 ### License for Images
 The PhET name and PhET logo are registered trademarks of The Regents of the
@@ -114,4 +114,4 @@ Contact phethelp@colorado.edu regarding licensing
 https://phet.colorado.edu/en/licensing
 
 ### Contributing
-If you would like to contribute to this repo, please read our [contributing guidelines](https://github.com/phetsims/community/blob/master/CONTRIBUTING.md).
+If you would like to contribute to this repo, please read our [contributing guidelines](https://github.com/phetsims/community/blob/main/CONTRIBUTING.md).
