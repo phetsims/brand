@@ -20,25 +20,21 @@ const thirdPartyCreditsLinkStringProperty = JoistStrings.thirdParty.credits.link
 export type LinkObject = {
   textStringProperty: TReadOnlyProperty<string>;
   url: string;
-  tandemName: string;
 };
 
 const getLinks = ( simName: string, locale: Locale ): LinkObject[] => {
   return [
     {
       textStringProperty: termsPrivacyAndLicensingStringProperty,
-      url: 'https://phet.colorado.edu/en/licensing/html',
-      tandemName: 'termsPrivacyAndLicensingLinkText'
+      url: 'https://phet.colorado.edu/en/licensing/html'
     },
     {
       textStringProperty: translationCreditsLinkStringProperty,
-      url: `https://phet.colorado.edu/translation-credits?simName=${encodeURIComponent( simName )}&locale=${encodeURIComponent( locale )}`,
-      tandemName: 'translationCreditsLinkText'
+      url: `https://phet.colorado.edu/translation-credits?simName=${encodeURIComponent( simName )}&locale=${encodeURIComponent( locale )}`
     },
     {
       textStringProperty: thirdPartyCreditsLinkStringProperty,
-      url: `https://phet.colorado.edu/third-party-credits?simName=${encodeURIComponent( simName )}&locale=${encodeURIComponent( locale )}#${simName}`,
-      tandemName: 'thirdPartyCreditsLinkText'
+      url: `https://phet.colorado.edu/third-party-credits?simName=${encodeURIComponent( simName )}&locale=${encodeURIComponent( locale )}#${simName}`
     }
   ];
 };
