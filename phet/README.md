@@ -1,7 +1,7 @@
 # The `phet` brand
 
-The `phet` brand is reserved for use by PhET Interactive Simulations.
-The PhET logo is a registered trademark and is only permitted for use by the PhET team at the University of Colorado.
+The `phet` brand is reserved for use by PhET Interactive Simulations. The PhET logo is a registered trademark and is
+only permitted for use by the PhET team at the University of Colorado.
 
 This brand is used for simulations published on the PhET website and includes:
 

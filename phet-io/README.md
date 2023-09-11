@@ -1,7 +1,7 @@
 # The `interoperable` brand
 
-The `phet-io` brand is reserved for use by PhET Interactive Simulations that are "interoperable".
-Interoperable simulations provide powerful input/output/logging/iframe/API features.
+The `phet-io` brand is reserved for use by PhET Interactive Simulations that are "interoperable". Interoperable
+simulations provide powerful input/output/logging/iframe/API features.
 
 This brand includes:
 

@@ -9,8 +9,8 @@ features:
 4. The copyright statement that appears in the About dialog
 5. Links that appear in the About dialog
 
-PhET provides 3 built-in brands and flexibility to easily create new brands, making it easy for 3rd parties to
-customize their simulations. The built-in brands are:
+PhET provides 3 built-in brands and flexibility to easily create new brands, making it easy for 3rd parties to customize
+their simulations. The built-in brands are:
 
 1. `adapted-from-phet` (the default brand) indicates that a simulation is adapted from the original PhET simulation.
    More details available in the [adapted-from-phet brand README](adapted-from-phet/README.md)
@@ -130,17 +130,15 @@ See the <a href="https://github.com/phetsims/acid-base-solutions/blob/main/LICEN
 
 ### License for Images
 
-The PhET name and PhET logo are registered trademarks of The Regents of the
-University of Colorado. Permission is granted to use the PhET name and PhET logo
-only for attribution purposes. Use of the PhET name and/or PhET logo for promotional,
-marketing, or advertising purposes requires a separate license agreement from the
-University of Colorado. Contact phethelp@colorado.edu regarding licensing.
+The PhET name and PhET logo are registered trademarks of The Regents of the University of Colorado. Permission is
+granted to use the PhET name and PhET logo only for attribution purposes. Use of the PhET name and/or PhET logo for
+promotional, marketing, or advertising purposes requires a separate license agreement from the University of Colorado.
+Contact phethelp@colorado.edu regarding licensing.
 
 ### Licenses for the Interoperable Versions
 
-Interoperable PhET Simulations requires a license
-USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED
-Contact phethelp@colorado.edu regarding licensing
+Interoperable PhET Simulations requires a license USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED Contact
+phethelp@colorado.edu regarding licensing
 https://phet.colorado.edu/en/licensing
 
 ### Contributing
