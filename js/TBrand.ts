@@ -1,5 +1,7 @@
 // Copyright 2022, University of Colorado Boulder
 
+// @author Michael Kauzmann (PhET Interactive Simulations)
+
 import getLinks from './getLinks.js';
 
 type TBrand = {

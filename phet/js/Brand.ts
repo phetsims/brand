@@ -1,6 +1,7 @@
 // Copyright 2002-2014, University of Colorado Boulder
 
 // Returns branding information for the simulations, see https://github.com/phetsims/brand/issues/1
+// @author Michael Kauzmann (PhET Interactive Simulations)
 
 
 import brand from '../../js/brand.js';
