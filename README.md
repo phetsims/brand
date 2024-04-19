@@ -117,16 +117,15 @@ grunt --brands=simulations-4-knowledge
 
 ### Get Involved
 
-Contact us at our Google
-Group: <a href="http://groups.google.com/forum/#!forum/developing-interactive-simulations-in-html5" target="_blank">
-Developing Interactive Simulations in HTML5</a>
+Join the SceneryStack community: <a href="http://scenerystack.org/" target="_blank">
+SceneryStack Community Website</a>
 
-Help us improve by creating a <a href="http://github.com/phetsims/acid-base-solutions/issues/new" target="_blank">New
-GitHub Issue</a>
+Help us improve by creating a <a href="http://github.com/phetsims/brand/issues/new" target="_blank">New
+GitHub Issue</a>.
 
 ### License for Code
 
-See the <a href="https://github.com/phetsims/acid-base-solutions/blob/main/LICENSE" target="_blank">LICENSE</a>
+See the <a href="https://github.com/phetsims/brand/blob/main/LICENSE" target="_blank">LICENSE</a>
 
 ### License for Images
 
