@@ -1,9 +1,18 @@
 {
   "extends": "../chipper/tsconfig-core.json",
   "include": [
+    "phet/js/**/*",
+    "phet-io/js/**/*",
+    "test-brand/js/**/*",
+    "adapted-from-phet/js/**/*",
     "js/**/*",
     "images/**/*",
     "mipmaps/**/*",
     "sounds/**/*"
+  ],
+  "references": [
+    {
+      "path": "../chipper/tsconfig/buildjson"
+    }
   ]
 }
