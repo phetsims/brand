@@ -6,9 +6,9 @@
 
 import brand from '../../js/brand.js';
 import getLinks from '../../js/getLinks.js';
-import logoOnWhite_png from '../images/logoOnWhite_png.js';
-import logo_png from '../images/logo_png.js';
 import TBrand from '../../js/TBrand.js';
+import logo_png from '../images/logo_png.js';
+import logoOnWhite_png from '../images/logoOnWhite_png.js';
 
 // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
 const Brand: TBrand = {

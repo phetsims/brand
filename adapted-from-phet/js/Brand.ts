@@ -6,8 +6,8 @@
 
 import brand from '../../js/brand.js';
 import TBrand from '../../js/TBrand.js';
-import logoOnWhite_png from '../images/logoOnWhite_png.js';
 import logo_png from '../images/logo_png.js';
+import logoOnWhite_png from '../images/logoOnWhite_png.js';
 
 const Brand: TBrand = {
 
