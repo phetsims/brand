@@ -13,9 +13,10 @@ import { Locale } from '../../joist/js/i18n/localeProperty.js';
 import JoistStrings from '../../joist/js/JoistStrings.js';
 import brand from './brand.js';
 
-const termsPrivacyAndLicensingStringProperty = JoistStrings.termsPrivacyAndLicensingStringProperty;
+const privacyPolicyStringProperty = JoistStrings.privacyPolicyStringProperty;
 const translationCreditsLinkStringProperty = JoistStrings.translation.credits.linkStringProperty;
 const thirdPartyCreditsLinkStringProperty = JoistStrings.thirdParty.credits.linkStringProperty;
+const donateToPhetStringProperty = JoistStrings.donateToPhetStringProperty;
 
 export type LinkObject = {
   textStringProperty: TReadOnlyProperty<string>;
@@ -25,8 +26,8 @@ export type LinkObject = {
 const getLinks = ( simName: string, locale: Locale ): LinkObject[] => {
   return [
     {
-      textStringProperty: termsPrivacyAndLicensingStringProperty,
-      url: 'https://phet.colorado.edu/en/licensing/html'
+      textStringProperty: privacyPolicyStringProperty,
+      url: 'https://phet.colorado.edu/en/privacy-policy'
     },
     {
       textStringProperty: translationCreditsLinkStringProperty,
@@ -35,6 +36,10 @@ const getLinks = ( simName: string, locale: Locale ): LinkObject[] => {
     {
       textStringProperty: thirdPartyCreditsLinkStringProperty,
       url: `https://phet.colorado.edu/third-party-credits?simName=${encodeURIComponent( simName )}&locale=${encodeURIComponent( locale )}#${simName}`
+    },
+    {
+      textStringProperty: donateToPhetStringProperty,
+      url: 'https://giveto.colorado.edu/phet-interactive-simulations/?a=12323626'
     }
   ];
 };
