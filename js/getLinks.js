@@ -12,8 +12,10 @@ import joistStrings from '../../joist/js/joistStrings.js';
 import brand from './brand.js';
 
 const termsPrivacyAndLicensingString = joistStrings.termsPrivacyAndLicensing;
+const privacyPolicyStringProperty = JoistStrings.privacyPolicyStringProperty;
 const translationCreditsLinkString = joistStrings.translation.credits.link;
 const thirdPartyCreditsLinkString = joistStrings.thirdParty.credits.link;
+const donateToPhetStringProperty = JoistStrings.donateToPhetStringProperty;
 
 /**
  * @param {string} simName
@@ -24,9 +26,9 @@ const thirdPartyCreditsLinkString = joistStrings.thirdParty.credits.link;
 const getLinks = ( simName, locale ) => {
   return [
     {
-      text: termsPrivacyAndLicensingString,
-      url: 'https://phet.colorado.edu/en/licensing/html',
-      tandemName: 'termsPrivacyAndLicensingLinkText'
+      textStringProperty: privacyPolicyStringProperty,
+      url: 'https://phet.colorado.edu/en/privacy-policy',
+      tandemName: 'privacyPolicyLinkText'
     },
     {
       text: translationCreditsLinkString,
@@ -38,6 +40,11 @@ const getLinks = ( simName, locale ) => {
       url: `https://phet.colorado.edu/third-party-credits?simName=${encodeURIComponent( simName )
       }&locale=${encodeURIComponent( locale )}#${simName}`,
       tandemName: 'thirdPartyCreditsLinkText'
+    },
+    {
+      textStringProperty: donateToPhetStringProperty,
+      url: 'https://giveto.colorado.edu/phet-interactive-simulations/?a=12323626',
+      tandemName: 'donateToPhetLinkText'
     }
   ];
 };
