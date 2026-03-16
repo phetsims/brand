@@ -15,8 +15,10 @@ define( require => {
 
   // strings
   const termsPrivacyAndLicensingString = require( 'string!JOIST/termsPrivacyAndLicensing' );
+  const privacyPolicyString = require( 'string!JOIST/privacyPolicy' );
   const translationCreditsLinkString = require( 'string!JOIST/translation.credits.link' );
   const thirdPartyCreditsLinkString = require( 'string!JOIST/thirdParty.credits.link' );
+  const donateToPhetString = require( 'string!JOIST/donateToPhet' );
 
   /**
    * @param {string} simName
@@ -27,9 +29,9 @@ define( require => {
   const getLinks = ( simName, locale ) => {
     return [
       {
-        text: termsPrivacyAndLicensingString,
-        url: 'http://phet.colorado.edu/en/licensing/html',
-        tandemName: 'termsPrivacyAndLicensingText'
+        textStringProperty: privacyPolicyString,
+        url: 'https://phet.colorado.edu/en/privacy-policy',
+        tandemName: 'privacyPolicyLinkText'
       },
       {
         text: translationCreditsLinkString,
@@ -41,6 +43,11 @@ define( require => {
         url: 'http://phet.colorado.edu/third-party-credits?simName=' + encodeURIComponent( simName ) +
              '&locale=' + encodeURIComponent( locale ) + '#' + simName,
         tandemName: 'thirdPartyCreditsLinkText'
+      },
+      {
+        textStringProperty: donateToPhetString,
+        url: 'https://giveto.colorado.edu/phet-interactive-simulations/?a=12323626',
+        tandemName: 'donateToPhetLinkText'
       }
     ];
   };

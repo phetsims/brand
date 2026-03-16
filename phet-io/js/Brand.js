@@ -11,15 +11,16 @@ define( require => {
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   const Brand = {
     id: 'phet-io',
-    name: 'PhET\u2122 Interactive Simulations', // no i18n
-    copyright: 'Copyright © 2002-{{year}} University of Colorado Boulder',
-    additionalLicenseStatement: 'This PhET-iO interoperable simulation file requires a license.<br>' +
-                                'USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED.<br>' +
-                                'Contact phethelp@colorado.edu regarding licensing.',
-    getLinks: getLinks
+    name: 'PhET\u2122 Interactive Simulations, University of Colorado Boulder', // no i18n
+    copyright: 'Copyright © 2002-{{year}} Regents of the University of Colorado',
+    license: 'Use of this PhET-iO interoperable simulation file requires a license from the University of Colorado Boulder.<br>' +
+             '<b>USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED.</b><br>' +
+             'For information on PhET-iO simulation and/or brand licensing, see <a href="https://phet.colorado.edu/en/licensing"><u>Licensing</u></a>.',
+    licenseWithoutLinks: 'Use of this PhET-iO interoperable simulation file requires a license from the University of Colorado Boulder.<br>' +
+                         '<b>USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED.</b><br>' +
+                         'For information on PhET-iO simulation and/or brand licensing, see Licensing. https://phet.colorado.edu/en/licensing',
+    getLinks: getLinks,
   };
-
-  brand.register( 'Brand', Brand );
 
   return Brand;
 } );
