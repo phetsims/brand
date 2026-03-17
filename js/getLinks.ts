@@ -13,6 +13,7 @@ import { Locale } from '../../joist/js/i18n/localeProperty.js';
 import JoistStrings from '../../joist/js/JoistStrings.js';
 import brand from './brand.js';
 
+const termsPrivacyAndLicensingStringProperty = JoistStrings.termsPrivacyAndLicensingStringProperty;
 const privacyPolicyStringProperty = JoistStrings.privacyPolicyStringProperty;
 const translationCreditsLinkStringProperty = JoistStrings.translation.credits.linkStringProperty;
 const thirdPartyCreditsLinkStringProperty = JoistStrings.thirdParty.credits.linkStringProperty;
