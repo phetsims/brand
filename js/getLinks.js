@@ -12,10 +12,10 @@ import joistStrings from '../../joist/js/joistStrings.js';
 import brand from './brand.js';
 
 const termsPrivacyAndLicensingString = joistStrings.termsPrivacyAndLicensing;
-const privacyPolicyStringProperty = JoistStrings.privacyPolicyStringProperty;
+const privacyPolicyStringProperty = joistStrings.privacyPolicyStringProperty;
 const translationCreditsLinkString = joistStrings.translation.credits.link;
 const thirdPartyCreditsLinkString = joistStrings.thirdParty.credits.link;
-const donateToPhetStringProperty = JoistStrings.donateToPhetStringProperty;
+const donateToPhetStringProperty = joistStrings.donateToPhetStringProperty;
 
 /**
  * @param {string} simName
