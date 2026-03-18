@@ -26,7 +26,7 @@ const donateToPhetStringProperty = joistStrings.donateToPhetStringProperty;
 const getLinks = ( simName, locale ) => {
   return [
     {
-      textStringProperty: privacyPolicyStringProperty,
+      text: privacyPolicyStringProperty,
       url: 'https://phet.colorado.edu/en/privacy-policy',
       tandemName: 'privacyPolicyLinkText'
     },
@@ -42,7 +42,7 @@ const getLinks = ( simName, locale ) => {
       tandemName: 'thirdPartyCreditsLinkText'
     },
     {
-      textStringProperty: donateToPhetStringProperty,
+      text: donateToPhetStringProperty,
       url: 'https://giveto.colorado.edu/phet-interactive-simulations/?a=12323626',
       tandemName: 'donateToPhetLinkText'
     }
