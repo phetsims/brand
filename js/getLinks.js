@@ -12,10 +12,10 @@ import joistStrings from '../../joist/js/joistStrings.js';
 import brand from './brand.js';
 
 const termsPrivacyAndLicensingString = joistStrings.termsPrivacyAndLicensing;
-const privacyPolicyStringProperty = joistStrings.privacyPolicyStringProperty;
+const privacyPolicyString = joistStrings.privacyPolicy;
 const translationCreditsLinkString = joistStrings.translation.credits.link;
 const thirdPartyCreditsLinkString = joistStrings.thirdParty.credits.link;
-const donateToPhetStringProperty = joistStrings.donateToPhetStringProperty;
+const donateToPhetString = joistStrings.donateToPhet;
 
 /**
  * @param {string} simName
@@ -26,7 +26,7 @@ const donateToPhetStringProperty = joistStrings.donateToPhetStringProperty;
 const getLinks = ( simName, locale ) => {
   return [
     {
-      text: privacyPolicyStringProperty,
+      text: privacyPolicyString,
       url: 'https://phet.colorado.edu/en/privacy-policy',
       tandemName: 'privacyPolicyLinkText'
     },
@@ -42,7 +42,7 @@ const getLinks = ( simName, locale ) => {
       tandemName: 'thirdPartyCreditsLinkText'
     },
     {
-      text: donateToPhetStringProperty,
+      text: donateToPhetString,
       url: 'https://giveto.colorado.edu/phet-interactive-simulations/?a=12323626',
       tandemName: 'donateToPhetLinkText'
     }
