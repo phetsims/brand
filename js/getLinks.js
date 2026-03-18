@@ -29,7 +29,7 @@ define( require => {
   const getLinks = ( simName, locale ) => {
     return [
       {
-        textStringProperty: privacyPolicyString,
+        text: privacyPolicyString,
         url: 'https://phet.colorado.edu/en/privacy-policy',
         tandemName: 'privacyPolicyLinkText'
       },
@@ -45,7 +45,7 @@ define( require => {
         tandemName: 'thirdPartyCreditsLinkText'
       },
       {
-        textStringProperty: donateToPhetString,
+        text: donateToPhetString,
         url: 'https://giveto.colorado.edu/phet-interactive-simulations/?a=12323626',
         tandemName: 'donateToPhetLinkText'
       }
