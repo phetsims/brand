@@ -23,5 +23,7 @@ define( require => {
     isPhetApp: phet.chipper.queryParameters[ 'phet-app' ] || phet.chipper.queryParameters[ 'phet-android-app' ]
   };
 
+  brand.register( 'Brand', Brand );
+
   return Brand;
 } );
