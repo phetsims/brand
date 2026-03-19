@@ -12,6 +12,7 @@ import TReadOnlyProperty from '../../axon/js/TReadOnlyProperty.js';
 import JoistStrings from '../../joist/js/JoistStrings.js';
 import brand from './brand.js';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const termsPrivacyAndLicensingStringProperty = JoistStrings.termsPrivacyAndLicensingStringProperty;
 const privacyPolicyStringProperty = JoistStrings.privacyPolicyStringProperty;
 const translationCreditsLinkStringProperty = JoistStrings.translation.credits.linkStringProperty;
