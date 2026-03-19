@@ -8,6 +8,7 @@ define( function( require ) {
   var brand = require( 'BRAND/../../js/brand' );
 
   // strings
+  // eslint-disable-next-line no-unused-vars
   var termsPrivacyAndLicensingString = require( 'string!JOIST/termsPrivacyAndLicensing' );
   var privacyPolicyLinkString = require( 'string!JOIST/privacyPolicy' );
   var translationCreditsLinkString = require( 'string!JOIST/translation.credits.link' );
