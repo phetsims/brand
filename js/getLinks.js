@@ -11,6 +11,7 @@
 import joistStrings from '../../joist/js/joistStrings.js';
 import brand from './brand.js';
 
+// eslint-disable-next-line no-unused-vars
 const termsPrivacyAndLicensingString = joistStrings.termsPrivacyAndLicensing;
 const privacyPolicyString = joistStrings.privacyPolicy;
 const translationCreditsLinkString = joistStrings.translation.credits.link;
