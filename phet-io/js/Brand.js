@@ -19,8 +19,10 @@ define( require => {
     licenseWithoutLinks: 'Use of this PhET-iO interoperable simulation file requires a license from the University of Colorado Boulder.<br>' +
                          '<b>USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED.</b><br>' +
                          'For information on PhET-iO simulation and/or brand licensing, see Licensing. https://phet.colorado.edu/en/licensing',
-    getLinks: getLinks,
+    getLinks: getLinks
   };
+
+  brand.register( 'Brand', Brand );
 
   return Brand;
 } );
