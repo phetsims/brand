@@ -10,10 +10,10 @@ define( function( require ) {
   // strings
   // eslint-disable-next-line no-unused-vars
   var termsPrivacyAndLicensingString = require( 'string!JOIST/termsPrivacyAndLicensing' );
-  var privacyPolicyLinkString = require( 'string!JOIST/privacyPolicy' );
+  var privacyPolicyString = require( 'string!JOIST/privacyPolicy' );
   var translationCreditsLinkString = require( 'string!JOIST/translation.credits.link' );
   var thirdPartyCreditsLinkString = require( 'string!JOIST/thirdParty.credits.link' );
-  var donateToPhetLinkString = require( 'string!JOIST/donateToPhet' );
+  var donateToPhetString = require( 'string!JOIST/donateToPhet' );
 
   // Documentation for all properties is available in brand/adapted-from-phet/js/Brand.js
   var Brand = {
@@ -30,7 +30,7 @@ define( function( require ) {
     getLinks: function( simName, locale ) {
       return [
         {
-          text: privacyPolicyLinkString,
+          text: privacyPolicyString,
           url: 'https://phet.colorado.edu/en/privacy-policy'
         },
         {
@@ -44,7 +44,7 @@ define( function( require ) {
                '&locale=' + encodeURIComponent( locale ) + '#' + simName
         },
         {
-          text: donateToPhetLinkString,
+          text: donateToPhetString,
           url: 'https://giveto.colorado.edu/phet-interactive-simulations/?a=12323626'
         } ];
     }
