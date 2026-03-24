@@ -21,6 +21,9 @@ const Brand: TBrand = {
   licenseWithoutLinks: 'This simulation file is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). https://creativecommons.org/licenses/by-nc/4.0/<br>' +
                        '<b>COMMERCIAL USE WITHOUT A COMMERCIAL LICENSE AGREEMENT IS STRICTLY PROHIBITED.</b><br>' +
                        'For information on commercial and/or brand licensing, see Licensing. https://phet.colorado.edu/en/licensing',
+  accessibleLicense: 'This simulation file is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). https://creativecommons.org/licenses/by-nc/4.0/ ' +
+                     'COMMERCIAL USE WITHOUT A COMMERCIAL LICENSE AGREEMENT IS STRICTLY PROHIBITED. ' +
+                     'For information on commercial and/or brand licensing, see Licensing. https://phet.colorado.edu/en/licensing',
   getLinks: getLinks,
   logoOnBlackBackground: logo_png,
   logoOnWhiteBackground: logoOnWhite_png
