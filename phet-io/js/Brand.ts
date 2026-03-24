@@ -20,6 +20,9 @@ const Brand: TBrand = {
   licenseWithoutLinks: 'Use of this PhET-iO interoperable simulation file requires a license from the University of Colorado Boulder.<br>' +
                        '<b>USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED.</b><br>' +
                        'For information on PhET-iO simulation and/or brand licensing, see Licensing. https://phet.colorado.edu/en/licensing',
+  accessibleLicense: 'Use of this PhET-iO interoperable simulation file requires a license from the University of Colorado Boulder. ' +
+                     'USE WITHOUT A LICENSE AGREEMENT IS STRICTLY PROHIBITED. ' +
+                     'For information on PhET-iO simulation and/or brand licensing, see Licensing. https://phet.colorado.edu/en/licensing',
   getLinks: getLinks,
   logoOnBlackBackground: logo_png,
   logoOnWhiteBackground: logoOnWhite_png
