@@ -8,6 +8,7 @@ type TBrand = {
   copyright: string | null;
   license?: string;
   licenseWithoutLinks?: string;
+  accessibleLicense?: string;
   getLinks: typeof getLinks;
   logoOnBlackBackground: HTMLImageElement;
   logoOnWhiteBackground: HTMLImageElement;
